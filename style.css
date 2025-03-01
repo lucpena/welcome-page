@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;700&display=swap');
+
+html {
+    animation: fadeIn 2s ease-in-out;
+}
+
+body {
+    background-image: url('assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Segoe UI', sans-serif;
+    backdrop-filter: blur(5px);
+}
+
+.title {
+    font-size: 8rem;
+}
+
+/* Add keyframes for fade-in effect */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
